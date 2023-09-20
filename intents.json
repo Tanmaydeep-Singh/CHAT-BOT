@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "Introduction",
+      "patterns": [
+        "Who build this ?",
+        "Tanmaydeep"
+      ],
+      "responses": [
+        "Hey, I am Tanmaydeep and I am a Computer Science Engineering undergrad. I am a Developer who likes to works with ML. "
+      ]
+    },
+    {
+      "tag": "Developer Jokes",
+      "patterns": [
+        "Tell me a developer joke.",
+        "Give me a joke about programmers."
+      ],
+      "responses": [
+        "Why do programmers always mix up Christmas and Halloween? Because Oct 31 == Dec 25!",
+        "Why do programmers prefer using the dark mode? Because light attracts bugs!",
+        "Why did the developer go broke? Because he lost his cache!",
+        "Why do programmers dislike nature? It has too many bugs.",
+        "Why did the programmer quit his job? He didn't get arrays."
+      ]
+    }
+    
+  ]
+}
